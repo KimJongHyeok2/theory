@@ -37,3 +37,32 @@
     </ul>
   </li>
 </ul>
+
+<h3>Arrow Functions</h3>
+
+함수는 간결해지고 코드는 짧아졌다.
+```javascript
+const squares = [1, 2, 3].map(x => x * x) // 1, 4, 9
+```
+자신만의 this를 생성하지 않는다.
+```javascript
+function NumberEx() {
+  var that = this
+  that.num = 0;
+  setInterval(function add() {
+    // setInterval 안에서의 this 는 NumberEx의 this가 아니므로 다른 변수에 this를 지정하여 사용한다.
+    that.num++;
+    console.log(that.num);
+  }, 1000);
+}
+```
+화살표 함수는 자신의 this가 바인드 되지 않기 때문에 함수의 스코프에서의 this가 적용된다.
+```javascript
+function NumberEx() {
+  this.num = 0
+
+  setInterval(() => {
+    this.num++ // this is from NumberEx
+  }, 1000)
+}
+```
