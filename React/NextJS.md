@@ -10,3 +10,27 @@ React 어플리케이션의 SSR(Server Side Rendering)을 쉽게 구현 할 수 
   <li>Hot Module Replacement를 지원하는 Webpack 기반 작업환경</li>
   <li>Babel / Webpack 환경설정 커스터마이징</li>
 </ul>
+
+<h3>환경 설정</h3>
+<pre>
+mkdir hello-next
+cd hello-next
+yarn init -y
+yarn add react react-dom next
+mkdir pages
+</pre>
+<pre>
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^2.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
+</pre>
