@@ -66,3 +66,44 @@ function NumberEx() {
   }, 1000)
 }
 ```
+
+<h3>Modules</h3>
+
+Export, Import 를 이용해 function이나 variables 들을 다른 곳에서 사용할 수 있다.
+
+```javascript
+//  utility.js
+export const squares = (arr) => { return arr.map(x => x * x) }
+
+// math.js
+import { squares } from "utility"
+console.log(squares([1,2,3])) // [1,4,9]
+```
+
+<h3>Promise</h3>
+
+비동기 프로세싱을 위해 사용된다. (Asynchronously) 가독성이 좋으며 중첩된 콜백의 단점을 완화한다.
+(Callback Hell이라는 Callback 함수가 다시 Callback을 호출하고 또다시 Callback을 호출하는 코드를 읽기도 관리하기도 힘들어지는 것은 완화할 수 있다.)<br><br>
+
+Promise의 세가지 상태
+<ul>
+  <li>대기중(pending)</li>
+  <li>이행됨(fulfilled)</li>
+  <li>거부됨(rejected)</li>
+</ul>
+
+```javascript
+var promiseTest = (num) => {
+    return new Promise((resolve, reject) => {
+        if (num > 3) {
+            resolve(num)
+        } else {
+            reject("err")
+        }
+    }
+}
+
+promiseTest(5)
+    .then(val => console.log(val)) // 5
+    .catch(err => console.log(err))
+```
