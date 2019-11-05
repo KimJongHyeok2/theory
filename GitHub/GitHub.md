@@ -27,5 +27,33 @@ Git을 호스팅해주는 웹 서비스이며, Git 저장소 서버를 대신 �
     <tr>
       <td>git commit -m <내용></td><td>저장과 동시에 메시지를 남긴다.</td>
     </tr>
+    <tr>
+      <td>git push</td><td>remote repository로 업로드</td>
+    </tr>
+    <tr>
+      <td>git clone</td><td>git을 포함한 remote repository의 파일들을 local repository에 복사, GitHub에서 zip 파일로 받을 시 .git 폴더가 없음</td>
+    </tr>
+    <tr>
+      <td>git branch</td>
+      <td>
+        <ul>
+          <li>독립된 working directory를 의미한다.</li>
+          <li>branch를 통해 프로젝트 참여자마다 branch를 가지어 독립된 작업 공간을 갖는다.</li>
+          <li>테스트 및 백업 등의 용도로 사용할 수도 있다.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>head</td><td>포인터를 의미하며 지금 작업하고 있는 branch를 가르킨다.</td>
+    </tr>
+    <tr>
+      <td>merge</td>
+      <td>
+        <ul>
+          <li>2개의 branch에서 작업한 각기 다른 내용을 하나로 합치는 것을 의미하며, 현재 branch를 기준으로 병합된다.</li>
+          <li>만약 두 branch가 같은 파일의 같은 곳을 수정했다면, 충돌(merge conflict)이 발생해서 이를 해결해야 한다.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
