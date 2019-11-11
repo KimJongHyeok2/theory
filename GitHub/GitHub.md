@@ -28,10 +28,25 @@ Git을 호스팅해주는 웹 서비스이며, Git 저장소 서버를 대신 �
       <td>git commit -m <내용></td><td>저장과 동시에 메시지를 남긴다.</td>
     </tr>
     <tr>
+      <td>git commit -m <내용> --amend</td><td>마지막 커밋을 고친다.</td>
+    </tr>
+    <tr>
+      <td>git commit -C HEAD --amend</td><td>이전 커밋을 수정하고 커밋 메시지를 재사용한다.</td>
+    </tr>
+    <tr>
+      <td>git checked HEAD <파일> [<파일>]</td><td>작업 트리의 변경사항을 돌려놓는다.</td>
+    </tr>
+    <tr>
+      <td>git reset HEAD <파일>[<파일>]</td><td>커밋되지 않고 스테이징된 변경사항을 재설정한다.</td>
+    </tr>
+    <tr>
       <td>git push</td><td>remote repository로 업로드</td>
     </tr>
     <tr>
       <td>git clone</td><td>git을 포함한 remote repository의 파일들을 local repository에 복사, GitHub에서 zip 파일로 받을 시 .git 폴더가 없음</td>
+    </tr>
+    <tr>
+      <td>git remote add <원격 저장소> <url></td><td>새로운 원격 저장소를 추가한다.</td>
     </tr>
     <tr>
       <td>git branch</td>
