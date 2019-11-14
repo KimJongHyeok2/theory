@@ -34,3 +34,11 @@ mkdir pages
   }
 }
 </pre>
+
+<h3>Deployment</h3>
+
+프로젝트를 완성하고 릴리즈 할때 또 다른 명령어를 사용한다. Next.js 개발사 zeit에서 쉽게 프로젝트를 올릴 수 있는 now를 서비스를 제공해준다.
+<pre>
+yarn global add now
+</pre>
+레퍼런스 : <a href="https://velopert.com/3293">https://velopert.com/3293</a>
