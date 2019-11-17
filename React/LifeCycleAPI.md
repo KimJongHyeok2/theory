@@ -79,5 +79,8 @@ componentWillUnmount(){
 
 컴포넌트가 DOM 에서 사라진 후 실행되는 메소드이다.
 
+<img src="https://user-images.githubusercontent.com/47962660/69010563-4d09dd00-09a4-11ea-9c5c-08eff2b3f5b9.png"/>
+
 ## 레퍼런스
-https://velopert.com/1130
+https://velopert.com/1130<br>
+https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8
