@@ -41,4 +41,9 @@ mkdir pages
 <pre>
 yarn global add now
 </pre>
+
+<h3>규칙</h3>
+
+pages 폴더에 라우팅 url과 동일한 이름의 컴포넌트를 생성해야한다. pages 컴포넌트가 next 라우팅과 동일하게 mapping 되기 때문에 이 규칙은 반드시 지켜야한다.
+
 레퍼런스 : <a href="https://velopert.com/3293">https://velopert.com/3293</a>
