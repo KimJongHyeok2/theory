@@ -23,4 +23,8 @@
 
 <h3>package.json</h3>
 
-package.json 은 npm을 위한 정보들을 저장 해 놓은 파일이며 package.json 에서 가장 중요한 항목은 name과 version 이다. name과 version이 누락되면 패키지는 설치 할 수 없다. 또한 name 과 version을 통해서 각 패키지의 고유성을 판별한다. 즉, 패키지의 내용을 변경하려면 version을 변경해야한다.
+package.jso 은 npm을 위한 정보들을 저장 해 놓은 파일이며 package.json 에서 가장 중요한 항목은 name과 version 이다. name과 version이 누락되면 패키지는 설치 할 수 없다. 또한 name 과 version을 통해서 각 패키지의 고유성을 판별한다. 즉, 패키지의 내용을 변경하려면 version을 변경해야한다.
+
+<h3>exports와 module.exports의 차이</h3>
+
+exports라는 단어는 import와 반대된다. 뭔가를 내보낸다는 의미이다. Node.js에서의 exports는 주로 모듈을 내보낸다. 간략히 비유해서 설명하면. C언어의 사용자 정의 헤더파일 , 자바의 라이브러리(jar) 비슷한 형태라고 할 수 있다.
