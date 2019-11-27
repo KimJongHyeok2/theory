@@ -107,3 +107,6 @@ promiseTest(5)
     .then(val => console.log(val)) // 5
     .catch(err => console.log(err))
 ```
+
+## 레퍼런스
+https://sanghaklee.tistory.com/54
