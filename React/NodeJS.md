@@ -28,3 +28,6 @@ package.jso 은 npm을 위한 정보들을 저장 해 놓은 파일이며 packag
 <h3>exports와 module.exports의 차이</h3>
 
 exports라는 단어는 import와 반대된다. 뭔가를 내보낸다는 의미이다. Node.js에서의 exports는 주로 모듈을 내보낸다. 간략히 비유해서 설명하면, C언어의 사용자 정의 헤더파일 , 자바의 라이브러리(jar) 비슷한 형태라고 할 수 있다.
+
+## 레퍼런스
+https://javafa.gitbooks.io/nodejs_server_basic/content/
