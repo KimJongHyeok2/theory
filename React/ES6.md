@@ -108,5 +108,43 @@ promiseTest(5)
     .catch(err => console.log(err))
 ```
 
+<h3>Destructuring Assignment</h3>
+
+<a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">비구조화 할당</a>
+```javascript
+// ES5
+var name = req.body.name;
+var age = req.body.age;
+var email = req.body.email;
+```
+```javascript
+// ES6
+const {name, age, email} = req.body;
+```
+
+<h3>Object Initialize - Property Shorthand</h3>
+
+<a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Object_initializer">객체 초기자</a>
+```javascript
+// ES5
+var name = 'hak'
+var age = 27
+var email = 'code.ryan.lee@gmail.com'
+
+var datas = {
+  name: name,
+  age: age,
+  email: email
+}
+```
+```javascript
+// ES6
+let name = 'hak'
+let age = 27
+let email = 'code.ryan.lee@gmail.com'
+
+let datas = {name, age, email}
+let datas2 = {username: name, age, email}
+```
 ## 레퍼런스
 https://sanghaklee.tistory.com/54
