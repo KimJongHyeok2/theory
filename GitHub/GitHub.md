@@ -13,10 +13,10 @@ Git을 호스팅해주는 웹 서비스이며, Git 저장소 서버를 대신 �
   </thead>
   <tbody>
     <tr>
-      <td>git config --global <이메일 주소></td><td>초기설정</td>
+      <td>git config --global user.email <이메일 주소></td><td>초기설정</td>
     </tr>
     <tr>
-      <td>git config --global <이름></td><td>초기설정</td>
+      <td>git config --global user.name <이름></td><td>초기설정</td>
     </tr>
     <tr>
       <td>git init</td><td>해당 폴더에 Git을 사용할 것을 알림, master branch가 생성되고 git bash 현재 폴더명에 branch 이름이 추가된다.</td>
