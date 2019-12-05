@@ -3,4 +3,5 @@ Component와 매우 유사하지만 한 가지 다른 점이 있다면, React의
 
 ## 레퍼런스
 https://wonism.github.io/react-pure-component/<br>
-https://velog.io/@lesh/PureComponent%EC%99%80-componentShouldUpdate-9cjz3nh0v1
+https://velog.io/@lesh/PureComponent%EC%99%80-componentShouldUpdate-9cjz3nh0v1<br>
+https://medium.com/vingle-tech-blog/react-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f255d6569849
