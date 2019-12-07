@@ -72,3 +72,6 @@ Git을 호스팅해주는 웹 서비스이며, Git 저장소 서버를 대신 �
     </tr>
   </tbody>
 </table>
+        
+## 레퍼런스
+https://rogerdudler.github.io/git-guide/index.ko.html
