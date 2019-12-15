@@ -28,3 +28,6 @@ const handleListening = () =>{
 
 app.listen(PORT,handleListening); // port번호 설정
 ```
+
+## 레퍼런스
+http://webframeworks.kr/getstarted/expressjs/
