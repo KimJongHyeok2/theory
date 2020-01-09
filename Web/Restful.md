@@ -123,6 +123,7 @@
     </ul>
   </li>
   <li>
+    Uniform Interface(인터페이스 일관성)
     <ul>
       <li>URI로 지정한 Resource에 대한 조작을 통일되고 한정적인 인터페이스로 수행한다.</li>
       <li>
