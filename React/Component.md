@@ -8,4 +8,5 @@ LifeCycleAPI와 State의 사용이 필요없을 경우, props를 통해 view만�
 + React 16.8 버전부터는 함수형 컴포넌트에서 State와 LifeCycleAPI를 사용할 수 있는 Hooks라는 개념이 등장했고 점진적으로 클래스 컴포넌트에만 존재하는 기능등을 추가할 예정이라고 한다. 기존의 클래스 컴포넌트를 전환할 필요는 없지만 상황에 따라 Hooks를 사용하는 것이 유지보수성과 가독성 측면에서 좋다고한다.
 
 ## 레퍼런스
-https://ko.reactjs.org/docs/hooks-intro.html
+https://ko.reactjs.org/docs/hooks-intro.html<br>
+https://velog.io/@velopert/react-hooks
