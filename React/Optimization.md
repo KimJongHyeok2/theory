@@ -36,7 +36,7 @@ export default React.memo(MyComponent);
 ```
 
 PureComponent와 동일하게 **얕은 비교** 를 통해 DOM 업데이트 여부를 결정하며, Props의 변경이 없는 한 기존에 메모이징된 내용을 그대로 사용한다.
-마찬가지로 비교방식을 변경하거나 고도화를 하고싶다면 두번째 매개변수로 비교함수를 만들어서 넘겨준다.
+마찬가지로 비교 방식을 변경하거나 고도화를 하고싶다면 두번째 매개변수로 비교함수를 만들어서 넘겨준다.
 
 ```javascript
 const compare(nextProps, prevPros) {
