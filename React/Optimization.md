@@ -96,3 +96,7 @@ export default React.memo(MyComponent);
 ```
 
 항상 성능상 이점을 측정하기 위해 React Devtools의 profilling을 사용해서 확인해보는 것이 좋다.
+
+## 레퍼런스
+https://ui.toast.com/weekly-pick/ko_20190731/<br>
+https://medium.com/@async3619/when-to-use-component-or-purecomponent-b810897a19a2
