@@ -39,10 +39,8 @@ PureComponent와 동일하게 **얕은 비교** 를 통해 DOM 업데이트 여�
 마찬가지로 비교 방식을 변경하거나 고도화를 하고싶다면 두번째 매개변수로 비교함수를 만들어서 넘겨준다.
 
 ```javascript
-const compare(nextProps, prevPros) {
-  return (
+const compare = (prevProps, nextProps) => {
     ...
-  );
 }
 
 export default React.memo(MyComponent, compare);
