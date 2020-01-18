@@ -136,6 +136,23 @@
   </li>
 </ul>
 
+<h3>REST API의 개념</h3>
+<ul>
+  <li>
+    API(Application Programming Interface)란
+    <ul>
+      <li>데이터와 기능의 집합을 제공하여 컴퓨터 프로그램간 상호작용을 촉진하며, 서로 정보를 교환 가능하도록 하는 것</li>
+    </ul>
+  </li>
+  <li>
+    REST API의 정의
+    <ul>
+      <li>REST 기반으로 서비스 API를 구현한 것</li>
+      <li>최근 OpenAPI(누구나 사용할 수 있도록 공개된 API: 구글맵, 공공 데이터 등), 마이크로 서비스(하나의 큰 애플리케이션을 여러 개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 아키텍처) 등을 제공하는 업체 대부분은 REST API를 제공한다.</li>
+    </ul>
+  </li>
+</ul>
+
 ## 레퍼런스
 https://nesoy.github.io/articles/2017-02/REST<br>
 https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
