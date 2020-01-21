@@ -153,6 +153,13 @@
   </li>
 </ul>
 
+<h3>REST API의 특징</h3>
+<ul>
+  <li>사내 시스템들도 REST 기반으로 시스템을 분산해 확장성과 재사용성을 높여 유지보수 및 운용을 편리하게 할 수 있다.</li>
+  <li>REST는 HTTP 표준을 기반으로 구현하므로, HTTP를 지원하는 프로그램 언어로 클라이언트, 서버를 구현할 수 있다.</li>
+  <li>즉, REST API를 제작하면 델파이 클라이언트 뿐 아니라, 자바, C#, 웹 등을 이용해 클라이언트를 제작할 수 있다.</li>
+</ul>
+
 ## 레퍼런스
 https://nesoy.github.io/articles/2017-02/REST<br>
 https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
