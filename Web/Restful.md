@@ -160,6 +160,33 @@
   <li>즉, REST API를 제작하면 델파이 클라이언트 뿐 아니라, 자바, C#, 웹 등을 이용해 클라이언트를 제작할 수 있다.</li>
 </ul>
 
+<h3>REST API 설계 기본 규칙</h3>
+참고 리소스 원형
+<ul>
+  <li>도큐먼트: 객체 인스턴스나 데이터베이스 레코드와 유사한 개념</li>
+  <li>컬렉션: 서버에서 관리하는 디렉터리라는 리소스</li>
+  <li>스토어: 클라이언트에서 관리하는 리소스 저장소</li>
+</ul>
+<ul>
+  <li>
+    URI는 정보의 자원을 표현해야한다.
+    <ul>
+      <li>resource는 동사보다는 명사를, 대문자보다는 소문자를 사용한다.</li>
+      <li>resource의 도큐먼트 이름으로는 단수 명사를 사용해야 한다.</li>
+      <li>resource의 컬렉션 이름으로는 복수 명사를 사용해야 한다.</li>
+      <li>resource의 스토어 이름으로는 복수 명사를 사용해야 한다.</li>
+    </ul>
+  </li>
+  <li>
+    자원에 대한 행위는 HTTP Method(GET, PUT, POST, DELETE 등)로 표현한다.
+    <ul>
+      <li>URI에 HTTP Method가 들어가면 안된다.</li>
+      <li>URI에 행위에 대한 동사 표현이 들어가면 안된다.</li>
+      <li>경로 부분 중 변하는 부분은 유일한 값으로 대체한다.</li>
+    </ul>
+  </li>
+</ul>
+
 ## 레퍼런스
 https://nesoy.github.io/articles/2017-02/REST<br>
 https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
