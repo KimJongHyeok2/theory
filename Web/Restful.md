@@ -201,7 +201,7 @@
       <li>URI에 포함되는 모든 글자는 리소스의 유일한 식별자로 사용되어야 하며 URI가 다르다는 것은 리소스가 다르다는 것이고, 역으로 리소스가 다르면 URI도 달라져야 한다.</li>
       <li>REST API는 분명한 URI를 만들어 통신을 해야 하기 때문에 혼동을 주지 않도록 URI 경로의 마지막에는 슬래시(/)를 사용하지 않는다.</li>
       <li>EX) http://restapi.example.com/houses/apartments</li>
-    <ul>
+    </ul>
   </li>
 </ul>
 
