@@ -187,6 +187,24 @@
   </li>
 </ul>
 
+<h3>REST API 설계 규칙</h3>
+<ul>
+  <li>
+    슬래시 구분자(/)는 계층 관계를 나타내는데 사용한다.
+    <ul>
+      <li>EX) http://restapi.example.com/houses/apartments</li>
+    </ul>
+  </li>
+  <li>
+    URI 마지막 문자로 슬래시(/)를 포함하지 않는다.
+    <ul>
+      <li>URI에 포함되는 모든 글자는 리소스의 유일한 식별자로 사용되어야 하며 URI가 다르다는 것은 리소스가 다르다는 것이고, 역으로 리소스가 다르면 URI도 달라져야 한다.</li>
+      <li>REST API는 분명한 URI를 만들어 통신을 해야 하기 때문에 혼동을 주지 않도록 URI 경로의 마지막에는 슬래시(/)를 사용하지 않는다.</li>
+      <li>EX) http://restapi.example.com/houses/apartments</li>
+    <ul>
+  </li>
+</ul>
+
 ## 레퍼런스
 https://nesoy.github.io/articles/2017-02/REST<br>
 https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
