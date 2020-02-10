@@ -11,5 +11,5 @@ https://www.slideshare.net/jinkwonlee52/frontend-46605098
 ## Front-End 테스트 환경
 https://meetup.toast.com/posts/132
 
-## F/E Testing Tool
+## Front-End Testing Tool
 https://mizzo-dev.tistory.com/entry/test
