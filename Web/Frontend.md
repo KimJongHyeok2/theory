@@ -13,3 +13,6 @@ https://meetup.toast.com/posts/132
 
 ## Front-End Testing Tool
 https://mizzo-dev.tistory.com/entry/test
+
+## 크롬 개발자 도구를 이용한 자바스크립트 디버깅
+https://subicura.com/2018/02/14/javascript-debugging.html
