@@ -19,3 +19,6 @@ https://subicura.com/2018/02/14/javascript-debugging.html
 
 ## 실용적인 프론트엔드 테스트 전략 (1)
 https://meetup.toast.com/posts/174
+
+## 크로스 브라우징 이슈에 대응하는 Front-End 개발자들의 전략
+https://asfirstalways.tistory.com/237
