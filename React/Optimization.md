@@ -97,4 +97,5 @@ export default React.memo(MyComponent);
 
 ## 레퍼런스
 https://ui.toast.com/weekly-pick/ko_20190731/<br>
-https://medium.com/@async3619/when-to-use-component-or-purecomponent-b810897a19a2
+https://medium.com/@async3619/when-to-use-component-or-purecomponent-b810897a19a2<br>
+https://react.vlpt.us/basic/19-React.memo.html
