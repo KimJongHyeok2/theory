@@ -4,5 +4,5 @@ https://riptutorial.com/ko/javascript/topic/4073/linters---%EC%BD%94%EB%93%9C-%E
 ## 자바스크립트 Promise 쉽게 이해하기
 https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
 
-## 기
+## 기타
 https://brandcolors.net/
