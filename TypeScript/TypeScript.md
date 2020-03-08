@@ -1,5 +1,5 @@
 ## TypeScript
-Microsoft에서 개발한 프로그래밍 언어이다. JavaScript의 superset(확대집합)이라고 한다. 간단히 설명하면 TypeScript는 컴파일 이후 JavaScript가 된다.
+Microsoft에서 개발한 프로그래밍 언어이다. JavaScript의 SuperSet(확대집합)이라고 한다. 간단히 설명하면 TypeScript는 컴파일 이후 JavaScript가 된다.
 
 <h3>필요성</h3>
 <ul>
