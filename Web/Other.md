@@ -5,4 +5,5 @@ https://riptutorial.com/ko/javascript/topic/4073/linters---%EC%BD%94%EB%93%9C-%E
 https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
 
 ## 기타
-https://brandcolors.net/
+https://brandcolors.net/<br>
+https://blog.cometkim.kr/posts/stars-last-week/2018-03-17/
