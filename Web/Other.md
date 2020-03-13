@@ -6,4 +6,5 @@ https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
 
 ## 기타
 https://brandcolors.net/<br>
+https://blog.cometkim.kr/posts/stars-last-week/2018-03-17/<br>
 https://blog.cometkim.kr/posts/stars-last-week/2018-03-17/
