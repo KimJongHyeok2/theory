@@ -25,6 +25,7 @@ Microsoft에서 개발한 프로그래밍 언어이다. JavaScript의 SuperSet(�
 
 ## 레퍼런스
 https://typescript-kr.github.io/<br>
+https://typescript-kr.github.io/pages/tutorials/React%20&%20Webpack.html<br>
 https://velog.io/@velopert/using-react-with-typescript<br>
 https://velog.io/@velopert/typescript-basics<br>
 https://medium.com/@jsh901220/%EA%B0%84%EB%8B%A8%ED%95%9C-typescript-%EC%84%A4%EB%AA%85-445e12ed8b75<br>
