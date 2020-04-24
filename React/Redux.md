@@ -29,4 +29,5 @@ Flux 패턴에서 Store는 어플리케이션의 모든 데이터 변화를 담�
 결국 Redux는 Flux 패턴을 좀 더 쉽고 정돈된 형태로 쓸 수 있게 도와주는 라이브러리(State Management Library)이며, JavaScript Application에서 Data-State와 UI-state를 관리해주는 도구이다.
 
 ## 레퍼런스
-https://engineering.huiseoul.com/react-redux-intro-bbff95b14cdf
+https://engineering.huiseoul.com/react-redux-intro-bbff95b14cdf<br>
+https://delivan.dev/react/stop-asking-if-react-hooks-replace-redux-kr/
