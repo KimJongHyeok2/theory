@@ -35,3 +35,4 @@ https://velog.io/@bluestragglr/Github-Action%EC%9C%BC%EB%A1%9C-%EB%B0%B0%ED%8F%A
 https://docs.amplify.aws/start/getting-started/installation/q/integration/react<br>
 
 https://rinae.dev/posts/this-month-i-learned-2004
+https://woowabros.github.io/experience/2017/12/11/how-to-study.html
