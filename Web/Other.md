@@ -19,7 +19,7 @@ http://bit.ly/2OOBSmN
 ## 개발자가 블로그를 운영해야 할 이유
 http://bit.ly/2MUI6yM
 
-## 제로 스페에겡 가까웠던 듣보잡 개발자의 유명 ID 기업 도전기
+## 제로 스펙에 가까웠던 듣보잡 개발자의 유명 ID 기업 도전기
 http://bit.ly/2N2qKzW
 
 ## 기타
