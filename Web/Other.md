@@ -41,3 +41,5 @@ https://itnext.io/how-to-setup-typescript-eslint-prettier-and-react-in-5-minutes
 ## Iamport
 https://m.blog.naver.com/iamport/221004352427
 https://github.com/iamport/iamport-react-example/tree/master/src
+<br>
+https://taeny.dev/javascript/nextjs-with-deployment-platform/#4-faas-vs-github-page
